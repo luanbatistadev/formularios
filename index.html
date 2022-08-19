@@ -8,12 +8,39 @@
 </head>
 
 <body>
-    <div>
-        <form>
-            <label for="nome">Nome:</label>
-            <input type="text" placeholder="Ex.: Maria Oliveira" id="nome">
-        </form>
-    </div>
+    <header class="header">
+        Inscrição
+    </header>
+    <form class="form">
+        <div>
+            <label for="nome" class="label">Nome: </label>
+            <input type="text" placeholder="Ex.: Maria Oliveira" id="nome" class="input">
+        </div>
+        <div>
+            <label for="email" class="label">E-mail: </label>
+            <input type="email" placeholder="Ex.: maria.oliveira@gmail.com" id="email" class="input">
+        </div>
+        <div>
+            <label class="label">Sexo:</label>
+            <input type="radio" id="masc" name="sexo">
+            <label for="masc">Masculino</label>
+            <input type="radio" id="fem" name="">
+            <label for="fem">Feminino</label>
+        </div>
+        <div>
+            <label for="curso" class="label">Curso:</label>
+            <select name="curso" id="curso">
+                <option value="html">HTML e CSS</option>
+                <option value="js">JavaScript</option>
+                <option value="git">Git</option>
+                <option value="node">Node</option>
+            </select>
+        </div>
+        <div>
+            <label for="atendimento"></label>
+            <textarea name="" id="atendimento" ></textarea>
+        </div>
+    </form>
 </body>
 
 </html>

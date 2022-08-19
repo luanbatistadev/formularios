@@ -1,0 +1,30 @@
+:root{
+    --cor_primaria: #1c6e8c;
+    --cor_primaria_dark: #274156;
+    --cor_texto: #605856;
+    --cor_fundo: #fbfcff;
+    --cor_texto-secundario: #fbfcff;
+}
+*{
+    margin: 0; padding: 0;
+}
+.form{
+    margin: 10px;
+}
+.label {
+    display: block;
+    color: var(--cor_texto);
+    font-size: sans-serif;
+    margin-top: 10px;
+}
+
+.input{
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.header{
+    background-color: var(--cor_primaria);
+    color: var(--cor_texto-secundario);
+    padding: 10px;
+}
