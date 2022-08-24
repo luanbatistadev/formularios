@@ -2,11 +2,13 @@
     --cor_primaria: #1c6e8c;
     --cor_primaria_dark: #274156;
     --cor_texto: #605856;
+    --cor_borda: #605856;
     --cor_fundo: #fbfcff;
     --cor_texto-secundario: #fbfcff;
 }
 *{
     margin: 0; padding: 0;
+    box-sizing: border-box;
 }
 .form{
     margin: 10px;
@@ -21,10 +23,39 @@
 .input{
     padding: 10px;
     margin-top: 10px;
+    width: 280px;
+    border: 1px var(--cor_borda) solid;
+
 }
 
 .header{
     background-color: var(--cor_primaria);
     color: var(--cor_texto-secundario);
     padding: 10px;
+}
+
+.atendimento{
+    width: 280px;
+    height: 160px;
+    resize: none;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px var(--cor_borda) solid;
+}
+
+.select{
+    width: 280px;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: var(--cor_fundo);
+    border: 1px var(--cor_borda) solid;
+}
+
+.botao{
+    margin-top: 10px;
+    background-color: var(--cor_primaria_dark);
+    color: var(--cor_texto-secundario);
+    padding: 10px;
+    border: none;
+    cursor: pointer;
 }
